@@ -87,7 +87,7 @@ function createShareLink() {
     description: bingoDescription.value,
     matrix: bingoMatrix.value
   }
-  const url = `${location.origin}?bingo=${createBingoText(bingoData)}`
+  const url = `${location.href}?bingo=${createBingoText(bingoData)}`
   return url
 }
 function share(){
