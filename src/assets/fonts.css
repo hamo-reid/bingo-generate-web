@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'AlimamaFangYuanTiVF';
+  src: url('@/assets/fonts/AlimamaFangYuanTiVF-Thin.ttf') format('truetype'),
+    url('@/assets/fonts/AlimamaFangYuanTiVF-Thin.woff') format('woff'),
+    url('@/assets/fonts/AlimamaFangYuanTiVF-Thin.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('@/assets/fonts/iconfont.woff2?t=1723020021971') format('woff2'),
+    url('@/assets/fonts/iconfont.woff?t=1723020021971') format('woff'),
+    url('@/assets/fonts/iconfont.ttf?t=1723020021971') format('truetype');
+}

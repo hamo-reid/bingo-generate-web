@@ -1,0 +1,28 @@
+@import url("@/assets/fonts.css");
+/* Reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: "AlimamaFangYuanTiVF";
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px; /* 对于小屏幕减小字体大小 */
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 12px; /* 对于更小的屏幕进一步减小字体大小 */
+  }
+}
